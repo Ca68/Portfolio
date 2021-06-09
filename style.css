@@ -1,0 +1,100 @@
+
+body {
+	background-color:  lightgray;
+}
+
+
+header {
+	background-color:  white;
+}
+
+
+h1 {
+	text-align:  center;
+}
+
+
+ul {
+	background-color:  skyblue; height: 30px;
+	color:  #FFFFFF;
+	
+
+}
+
+li a{
+	color:  #FFFFFF;
+	font-size:  20px;
+
+		
+}
+
+li {
+	font-size:  20px;
+	list-style:  none;
+	display:  inline-block;
+	margin:  0;
+	padding-left:  20px;
+	padding-right:  20px;
+}
+
+.container {
+	display:  grid;
+	grid-gap:  20px;
+	grid-template-columns:  2fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas: 
+    ". ."
+    ". ."
+    ". ."; 
+}
+
+.zone {
+	text-align:  left;
+	font-size:  35px;
+	boder-radius:  4px;
+	border:  1px solid #FFFFFF;
+	background-color:  white;
+	transition:  all 0.3s linear;
+}
+
+.alsace {
+	background-color:  solid #FFFFFF;
+	height:  600px;
+}
+
+h2 {
+	text-align: left;
+	font-size: 35px;
+}
+
+.colmar {
+	height:  10px;
+	position:  center;
+}
+
+.me {
+	height:  600px;
+}
+
+.languages {
+	height:  500px;
+}
+
+
+section p {
+	font-family: 'Pacifico', cursive;
+	font-size: 20px;
+}
+
+.skills {
+	height: 500px;	
+}
+
+.skills p {
+	font-family: serif;
+}
+
+
+h4 {
+	text-align: center;
+}

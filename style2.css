@@ -1,0 +1,57 @@
+li {
+	display: inline;
+	padding-left:  20px;
+	padding-right:  20px;
+}
+
+body {
+	background-color: beige;
+}
+
+.container {
+  display: grid; 
+  grid-template-columns: 1.6fr 1.4fr; 
+  grid-template-rows: 1fr 1fr 1fr; 
+  gap: 100px 0px; 
+  grid-template-areas: 
+    "Photo About-me"
+    "Hiking Photo2"
+    "Photo3 Bread"; 
+}
+
+.About-me { 
+	grid-area: About-me; 
+}
+
+
+.Photo { 
+	grid-area: Photo;
+	margin-top: 30px;
+	margin-left: 30px; 
+}
+
+
+.Photo2 { 
+	grid-area: Photo2;
+	margin-top: 30px;
+	margin-left: 30px; 
+}
+
+
+.Hiking { 
+	grid-area: Hiking;
+	text-align: center; 
+}
+
+.Bread { grid-area: Bread; }
+
+.Photo3 { 
+	grid-area: Photo3; 
+	margin-left: 30px;
+}
+
+
+section p {
+	font-family:'Cormorant Garamond', serif;
+	font-size: 20px;
+}
